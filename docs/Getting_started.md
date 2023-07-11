@@ -24,11 +24,11 @@ Fill in the ```username``` and ```password``` and update the ```id``` and ```par
 
 You can find the ```ìd``` in the web app experiment view in the top right
 
-![ID_in_Flow](ID_in_Flow.png){: style="width: 50%;" }
+![ID_in_Flow](/ID_in_Flow.png){: style="width: 50%;" }
 
 and the ```parentExperimentId``` in the node of the tree that you want to be the parent: 
 
-![parentID_in_Flow](parent_ID_in_Flow.png){: style="width: 50%;" }
+![parentID_in_Flow](/parent_ID_in_Flow.png){: style="width: 50%;" }
 
 The parentID will get updated automatically after every run. You only have to update the parentID if you want to open up a new branch in the tree.
 E.g. if you want to start a new branch from the root node, you have to update the parentID to the root node ID.
