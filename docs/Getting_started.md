@@ -8,8 +8,8 @@ trail work with the open source experiment tracker MLFlow. If you have never wor
 
 ##Before the first experiment
 
-1. Create a user config file.
-Primary path: ```trailconfig.yml```
+1. Create a user config file under 
+Primary path: ```trailconfig.yml``` or
 Secondary path: ```~/.config/trail.yml```
 
 ``` yaml
@@ -22,11 +22,11 @@ projects:
 ```
 Fill in the ```username``` and ```password``` and update the ```id``` and ```parentExperimentId```
 
-You can find the ```ìd``` in the web app experiment view in the top right
+You can find the ```ìd``` in the web app experiment view in the top right after you have created a new project in the project view, and selected that project in the top right of the experiment view:
 
 ![ID_in_Flow](/ID_in_Flow.png){: style="width: 50%;" }
 
-and the ```parentExperimentId``` in the node of the tree that you want to be the parent: 
+The ```parentExperimentId``` can be found in bottom ot the root-node or the bottom-right of any other node. Depending on which node you choose as a parent node, the new experiment will be a child of that node.
 
 ![parentID_in_Flow](/parent_ID_in_Flow.png){: style="width: 50%;" }
 
@@ -49,7 +49,7 @@ from trail import Trail
 3. Start a run and wrap your code with the trail context manager. The identifier "myProjectAlias" has to match the identifier in the config file (but is independent of any experiment names and the like).
 ``` python
 with mlflow.start_run() as run:
-    with Trail('myProjectAlias'):
+    with Trail('myProjectAlias') as trail:
       ...your training code...
 ```
 
