@@ -2,7 +2,7 @@
 
 Under this link you can find a repository with a dummy project. To get started you need to login to the [webapp](https://app.trail-ml.com), login with your credentials and create a new project. Then you can copy the project id and the parent experiment id into the config file and you are ready to go.
 
-If you clone the repo and experiment with different data processing steps or paramater values you'll see the visual experimentation flow in the webapp. Don't forget to change the parentID if you want to open up a new branch. The main training is shown below, for the full code, visit the github repo.
+If you clone the repo and experiment with different data processing steps or paramater values you'll see the visual experimentation flow in the webapp. Don't forget to change the parentID if you want to open up a new branch. The main training is shown below, for the full code, visit the [github repo](https://github.com/trail-ml/Example_projects/tree/main).
 ```python
     with mlflow.start_run():
         with Trail("myProjectAlias") as trail:
