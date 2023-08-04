@@ -1,5 +1,5 @@
 # Intro
-Trail brings more transparency to your ML experiments. Start by using MLflow to track experiments and follow the steps in [getting started](/docs/Getting_started.md) or [quickstart](/docs/Quickstart.md).
+Trail brings more transparency to your ML experiments. Start by using MLflow to track experiments and follow the steps in [getting started](Getting_started.md) or [quickstart](Quickstart.md).
 
 What you need before getting started:
 
