@@ -46,5 +46,13 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
+nav:
+  - 'index.md'
+  - 'AI_Registry.md'
+  - 'Experiment_Management.md'
+  - 'Documentation_Engine.md'
+  #- 'Quickstart.md'
+
+
 copyright: |
   &copy; 2023 <a href="https://www.trail-ml.com"  target="_blank" rel="noopener">trail UG (haftungsbeschränkt)</a>
