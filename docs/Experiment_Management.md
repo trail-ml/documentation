@@ -103,6 +103,30 @@ trail.put_artifact('path/to/artifact', "name", "tag")
 
 ### How to log source code
 
+- log folder from python
+
+``` python
+trail.upload_folder(local_folder_path: str, expiration_seconds=300)
+```
+
+- log folder from CLI
+
+``` shell
+trail --upload-folder file_name
+```
+
+- log file from CLI
+
+``` shell
+trail --upload-file file_name
+
+```
+- log jupyer-notebook with artifacts
+
+``` shell
+trail --upload-notebook-artifact file_name
+
+```
 
 ### How to log dataset statistics for tabular data
 
