@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://www.trail-ml.com/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.trail-ml.com/AI_Registry/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.trail-ml.com/Documentation_Engine/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.trail-ml.com/Experiment_Management/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.trail-ml.com/MLflow/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.trail-ml.com/Quickstart/</loc>
+         <lastmod>2023-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
