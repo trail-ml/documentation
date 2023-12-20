@@ -59,6 +59,12 @@ Now every metric, parameter and artifact that you logged with mlflow will be tra
 ## Available functions
 If you want to add further information to an experiment you can do so by adding one of the following methods to the trail context manager:
 
+### Add new experiment from CLI 
+
+``` shell
+trail add-new-experiment
+```
+
 ### How to log parameters & metrics
 
 mlflow provides [autologging](https://mlflow.org/docs/latest/tracking.html#automatic-logging) functionality for the following libraries:
@@ -103,8 +109,32 @@ trail.put_artifact('path/to/artifact', "name", "tag")
 
 ### How to log source code
 
+- log folder from python
 
-### How to log dataset statistics for tabular data
+``` python
+trail.upload_folder(local_folder_path: str, expiration_seconds=300)
+```
+
+- log folder from CLI
+
+``` shell
+trail --upload-folder folder_directory
+```
+
+- log file from CLI
+
+``` shell
+trail --upload-file file_name
+
+```
+- log jupyer-notebook with artifacts
+
+``` shell
+trail --upload-notebook-artifact file_name
+
+```
+
+### How to log dataset statistics from pandas dataframes
 
 - add a dataset statistic
 ``` python
